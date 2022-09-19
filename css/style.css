@@ -1,0 +1,159 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+a { 
+    text-decoration: none; 
+    color: #F9FAF8;
+}
+
+li { list-style: none;}
+
+#hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+nav {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    padding: 0px 15vw;
+    justify-content: space-between;
+}
+
+.link-area {
+    display: flex;
+    gap: 10px;
+    color: #F9FAF8;
+}
+
+.hero-text-area h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#header-logo {
+    font-size: 24px;
+}
+
+.hero-text-area {
+    width: 400px;
+}
+
+
+.hero-text-area h1 {
+    margin: 0px;
+        margin-bottom: -10px;
+}
+
+.random-img {
+    width: 400px;
+    height: 250px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 28px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#area-two {
+    color: #1F2937;
+}
+
+#area-two h1 {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.information-container img {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 5px solid;
+    border-radius: 15px;
+}
+
+.information-container div {
+    margin: 25px;
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.information-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#area-three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 80px 220px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-author {
+    float: right;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+#area-four {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 50px 120px;
+    margin: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+#area-four button {
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
+#area-four p, #area-four h1{
+    margin: 0px;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
+
+footer p {
+    font-size: 16px;
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+    font-weight: lighter;
+}
